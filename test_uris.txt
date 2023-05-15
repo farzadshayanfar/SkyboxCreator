@@ -1,0 +1,3 @@
+https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/ehingen_hillside_4k.exr
+https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/industrial_sunset_02_4k.exr
+https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/sandsloot_4k.exr

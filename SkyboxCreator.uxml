@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Augmentations/SkyboxCreator/SkyboxCreator.uss?fileID=7433441132597879392&amp;guid=a0937f8ad7b86b24f9c2b8b169fb13c1&amp;type=3#SkyboxCreator" />
+    <ui:VisualElement name="root">
+        <ui:Label text="Click on run to start the process:" />
+        <ui:VisualElement class="row">
+            <ui:TextField name="referenceTextField" label="Reference .txt file" />
+            <ui:Button name="browseBtn1" text="..." class="browseButton" />
+        </ui:VisualElement>
+        <ui:VisualElement class="row">
+            <ui:TextField name="unityDirTextField" label="Output dir" />
+            <ui:Button name="browseBtn2" text="..." class="browseButton" />
+        </ui:VisualElement>
+        <ui:Foldout text="Options" value="true">
+            <ui:Toggle name="hdriOverwriteToggle" text="Overwrite hdri files" />
+            <ui:Toggle name="skyboxOverwriteToggle" text="Overwrite skybox materials" />
+        </ui:Foldout>
+        <ui:VisualElement name="statusRow">
+            <ui:Label name="statusLabel" />
+        </ui:VisualElement>
+        <ui:VisualElement class="buttonRow">
+            <ui:Button name="startBtn" text="Start" />
+            <ui:Button name="abortBtn" text="Abort" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
